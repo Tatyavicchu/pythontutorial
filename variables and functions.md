@@ -65,12 +65,59 @@ print(result)  # Output: 1
 print(result)  # Output: 8
  ```
  
+ # String functions
  
+ `1-> len():` `Returns the length of a string.`
+ ```c
+ text = "Hello, world!"
+length = len(text)
+print(length)  # Output: 13
+ ```
  
+ `2-> lower():` `Converts a string to lowercase.`  //does not change the original string but gives us a new string.
+ ```c
+ text = "Hello, World!"
+lower_text = text.lower()
+print(lower_text)  # Output: hello, world!
+ ```
+ `3-> upper():` `Converts a string to uppercase.` //does not change the original string but gives us a new string.
+ ```c
+ text = "Hello, World!"
+upper_text = text.upper()
+print(upper_text)  # Output: HELLO, WORLD!
+ ```
+ `4-> strip():` `Removes leading and trailing whitespace from a string.`
+ ```c
+ text = "   Hello, World!   "
+stripped_text = text.strip()
+print(stripped_text)  # Output: Hello, World!
+ ```
+ `5-> split():` `Splits a string into a list of substrings based on a delimiter.`
+ ```c
+ text = "Hello, World!"
+words = text.split(",")
+print(words)  # Output: ['Hello', ' World!']
+ ```
  
+ `6-> join():`  `Joins a list of strings into a single string using a specified delimiter.`
+ ```c
+ words = ['Hello', 'World']
+text = ', '.join(words)
+print(text)  # Output: Hello, World
+ ```
+ `7-> replace():` `Replaces all occurrences of a substring with another substring.`
+ ```c
+ text = "Hello, World!"
+new_text = text.replace("World", "Python")
+print(new_text)  # Output: Hello, Python!
+ ```
+ `8-> find():` `Returns the index of the first occurrence of a substring in a string (-1 if not found)`
+ ```c
+text = "Hello, World!"
+index = text.find("World")
+print(index)  # Output: 7
+ ```
  
- 
- 
- 
+ # Boolean
  
  
