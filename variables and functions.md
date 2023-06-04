@@ -1,6 +1,6 @@
 # Input and Output
 ```c
-a=input(datatype("enter the number")) //if data type is not mentioned the the data s automatically taken as string.
+a=datatype(input("enter the number")) //if data type is not mentioned the the data s automatically taken as string.
 print (a)
 ```
 
@@ -65,6 +65,29 @@ print(result)  # Output: 1
 print(result)  # Output: 8
  ```
  
+ # Precedence of operators
+| Operator                        | Description                             |
+| ------------------------------- | --------------------------------------- |
+| `()`                            | Parentheses (grouping)                  |
+| `f(args...)`, `x[index]`, `x[index:index]` | Function calls, indexing, slicing    |
+| `**`                            | Exponentiation                          |
+| `~`, `+`, `-`                    | Bitwise NOT, unary plus and minus        |
+| `*`, `/`, `//`, `%`              | Multiplication, division, floor division, modulo |
+| `+`, `-`                         | Addition, subtraction                   |
+| `<<`, `>>`                       | Bitwise left shift, bitwise right shift |
+| `&`                             | Bitwise AND                             |
+| `^`                             | Bitwise XOR                             |
+| `|`                             | Bitwise OR                              |
+| `in`, `not in`, `is`, `is not`, `<`, `<=`, `>`, `>=`, `!=`, `==` | Comparison operators         |
+| `not`                            | Logical NOT                             |
+| `and`                            | Logical AND                             |
+| `or`                             | Logical OR                              |
+| `lambda`                         | Lambda expression                       |
+| `if...else`                      | Conditional expression                   |
+| `:=`                            | Assignment expression (Python 3.8+)      |
+
+ 
+ 
  # String functions
  
  `1-> len():` `Returns the length of a string.`
@@ -117,7 +140,11 @@ text = "Hello, World!"
 index = text.find("World")
 print(index)  # Output: 7
  ```
+ `9-> boolean :` `It prints true or false in any condition.`
+ ```c
+ name ="hello world"
+ print('h' in name)  //output: True
+ ```
  
- # Boolean
  
  
