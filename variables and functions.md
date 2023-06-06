@@ -146,5 +146,68 @@ print(index)  # Output: 7
  print('h' in name)  //output: True
  ```
  
+ # Conditional operators in python
+ 
+ 
+| Operator   | Meaning                                     | Example                          |
+|------------|---------------------------------------------|----------------------------------|
+| ==         | Equal to                                    | `x == y` (True if x equals y)    |
+| !=         | Not equal to                                | `x != y` (True if x does not equal y) |
+| >          | Greater than                                | `x > y` (True if x is greater than y) |
+| <          | Less than                                   | `x < y` (True if x is less than y) |
+| >=         | Greater than or equal to                    | `x >= y` (True if x is greater than or equal to y) |
+| <=         | Less than or equal to                       | `x <= y` (True if x is less than or equal to y) |
+| is         | Object identity                             | `x is y` (True if x and y refer to the same object) |
+| is not     | Negated object identity                     | `x is not y` (True if x and y do not refer to the same object) |
+| in         | Membership (checks if value is in a sequence) | `x in y` (True if x is found in y) |
+| not in     | Negated membership                          | `x not in y` (True if x is not found in y) |
+
+
+# if/else conditions in python
+
+```c
+if age>=18:
+  print("can vote") // always use indentation in loops and conditions.
+elif (age<18 and age>3)
+   print("not valid age")
+else :
+    print("thankyou")
+```
+
+# Range
+
+ -> this shows the limit of the numbers.
+ ```c
+ range(5)  // output: 1,2,3,4
+ ```
+ 
+# LOOPS
+ 
+ -> loops are used to do a task mutiple times.
+  
+  `Syntax`
+  
+  ### while loop
+  ```c
+     while i<=5:
+      print(i)
+      i+=1
+   ``` 
+   
+   ### for loop
+  ```c
+   for i in range(limit):
+       print(i)
+       i=+1
+   ```
+ 
+ 
+ # LIST -> It is a collection of items of diffrent data type.
+ ```c
+  mylist=[]  // with list square brackets are used
+  
+ ```
+ 
+ 
  
  
